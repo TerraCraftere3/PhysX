@@ -1,0 +1,15 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  CustomSuspension.cpp
+  SnippetVehicleCustomSuspension.cpp
+  Base.cpp
+  DirectDrivetrain.cpp
+  EngineDrivetrain.cpp
+  PhysXIntegration.cpp
+  BaseSerialization.cpp
+  DirectDrivetrainSerialization.cpp
+  EngineDrivetrainSerialization.cpp
+  SerializationCommon.cpp
+  SnippetVehicleHelpers.cpp
+  SnippetVehicleRender.cpp
+  SnippetVehicleCustomSuspension.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetVehicleCustomSuspension_64.exe

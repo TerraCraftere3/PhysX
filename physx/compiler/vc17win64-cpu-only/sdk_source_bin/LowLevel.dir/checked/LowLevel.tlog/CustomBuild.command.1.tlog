@@ -1,0 +1,10 @@
+^E:\LIBRARIES\PHYSX\PHYSX\SOURCE\COMPILER\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

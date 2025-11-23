@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetImmediateMode.cpp
+  SnippetImmediateModeRender.cpp
+  SnippetImmediateMode.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetImmediateMode_64.exe

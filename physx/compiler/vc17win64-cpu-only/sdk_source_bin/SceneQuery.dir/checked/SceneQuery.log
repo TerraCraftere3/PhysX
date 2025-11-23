@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+  SqFactory.cpp
+  SqCompoundPruner.cpp
+  SqCompoundPruningPool.cpp
+  SqManager.cpp
+  SqQuery.cpp
+  SceneQuery.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SceneQuery_static_64.lib

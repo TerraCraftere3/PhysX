@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetJoint.cpp
+  SnippetJointRender.cpp
+  SnippetJoint.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetJoint_64.exe

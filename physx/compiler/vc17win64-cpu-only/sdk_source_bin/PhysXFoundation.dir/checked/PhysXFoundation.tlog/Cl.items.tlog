@@ -1,0 +1,15 @@
+E:\Libraries\PhysX\physx\source\foundation\FdAllocator.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdAllocator.obj
+E:\Libraries\PhysX\physx\source\foundation\FdString.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdString.obj
+E:\Libraries\PhysX\physx\source\foundation\FdTempAllocator.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdTempAllocator.obj
+E:\Libraries\PhysX\physx\source\foundation\FdAssert.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdAssert.obj
+E:\Libraries\PhysX\physx\source\foundation\FdMathUtils.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdMathUtils.obj
+E:\Libraries\PhysX\physx\source\foundation\FdFoundation.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdFoundation.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsAtomic.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsAtomic.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsMutex.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsMutex.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsSync.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsSync.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsThread.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsThread.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsPrintString.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsPrintString.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsSList.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsSList.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsSocket.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsSocket.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsTime.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsTime.obj
+E:\Libraries\PhysX\physx\source\foundation\windows\FdWindowsFPU.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.dir\checked\FdWindowsFPU.obj

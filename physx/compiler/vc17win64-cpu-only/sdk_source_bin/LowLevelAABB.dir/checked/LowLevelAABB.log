@@ -1,0 +1,12 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+  BpAABBManager.cpp
+  BpAABBManagerBase.cpp
+  BpBroadPhase.cpp
+  BpBroadPhaseUpdate.cpp
+  BpBroadPhaseABP.cpp
+  BpBroadPhaseMBP.cpp
+  BpBroadPhaseSap.cpp
+  BpBroadPhaseSapAux.cpp
+  BpBroadPhaseShared.cpp
+  BpFiltering.cpp
+  LowLevelAABB.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\LowLevelAABB_static_64.lib

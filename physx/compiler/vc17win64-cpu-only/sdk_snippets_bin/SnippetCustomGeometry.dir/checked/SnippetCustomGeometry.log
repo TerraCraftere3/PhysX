@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetCustomGeometry.cpp
+  SnippetCustomGeometryRender.cpp
+  VoxelMap.cpp
+  SnippetCustomGeometry.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetCustomGeometry_64.exe

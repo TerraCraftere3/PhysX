@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+  FdAllocator.cpp
+  FdString.cpp
+  FdTempAllocator.cpp
+  FdAssert.cpp
+  FdMathUtils.cpp
+  FdFoundation.cpp
+  FdWindowsAtomic.cpp
+  FdWindowsMutex.cpp
+  FdWindowsSync.cpp
+  FdWindowsThread.cpp
+  FdWindowsPrintString.cpp
+  FdWindowsSList.cpp
+  FdWindowsSocket.cpp
+  FdWindowsTime.cpp
+  FdWindowsFPU.cpp
+     Bibliothek "E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/PhysXFoundation_64.lib" und Objekt "E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/PhysXFoundation_64.exp" werden erstellt.
+  PhysXFoundation.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXFoundation_64.dll

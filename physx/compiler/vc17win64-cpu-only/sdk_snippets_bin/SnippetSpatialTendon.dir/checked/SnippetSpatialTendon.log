@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetSpatialTendon.cpp
+  SnippetSpatialTendonRender.cpp
+  SnippetSpatialTendon.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetSpatialTendon_64.exe

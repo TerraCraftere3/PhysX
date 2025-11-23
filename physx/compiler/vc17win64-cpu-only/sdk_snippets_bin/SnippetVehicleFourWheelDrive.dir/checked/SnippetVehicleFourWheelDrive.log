@@ -1,0 +1,14 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetVehicleFourWheelDrive.cpp
+  Base.cpp
+  DirectDrivetrain.cpp
+  EngineDrivetrain.cpp
+  PhysXIntegration.cpp
+  BaseSerialization.cpp
+  DirectDrivetrainSerialization.cpp
+  EngineDrivetrainSerialization.cpp
+  SerializationCommon.cpp
+  SnippetVehicleHelpers.cpp
+  SnippetVehicleRender.cpp
+  SnippetVehicleFourWheelDrive.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetVehicleFourWheelDrive_64.exe

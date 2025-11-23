@@ -1,0 +1,13 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/pvdruntime/compiler/cmake/CMakeLists.txt
+  OmniPvdHelpers.cpp
+  OmniPvdLibraryFunctionsImpl.cpp
+  OmniPvdLog.cpp
+  OmniPvdReaderImpl.cpp
+  OmniPvdWriterImpl.cpp
+  OmniPvdFileReadStreamImpl.cpp
+  OmniPvdFileWriteStreamImpl.cpp
+  OmniPvdMemoryStreamImpl.cpp
+  OmniPvdMemoryReadStreamImpl.cpp
+  OmniPvdMemoryWriteStreamImpl.cpp
+     Bibliothek "E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/PVDRuntime_64.lib" und Objekt "E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/PVDRuntime_64.exp" werden erstellt.
+  PVDRuntime.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PVDRuntime_64.dll

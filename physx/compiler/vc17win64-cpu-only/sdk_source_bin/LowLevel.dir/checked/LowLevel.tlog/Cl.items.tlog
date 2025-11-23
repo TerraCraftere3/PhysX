@@ -1,0 +1,16 @@
+E:\Libraries\PhysX\physx\source\lowlevel\api\src\px_globals.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\px_globals.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactCache.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcContactCache.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcContactMethodImpl.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcMaterialMethodImpl.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpBatch.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcNpBatch.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcNpCacheStreamPair.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcNpContactPrepShared.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcNpMemBlockPool.obj
+E:\Libraries\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxcNpThreadContext.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsCCD.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsCCD.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsContactManager.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsContactManager.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsContext.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsContext.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsDefaultMemoryManager.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsDefaultMemoryManager.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsIslandSim.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsIslandSim.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsNphaseImplementationContext.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsNphaseImplementationContext.obj
+E:\Libraries\PhysX\physx\source\lowlevel\software\src\PxsSimpleIslandManager.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.dir\checked\PxsSimpleIslandManager.obj

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  SnippetUtils.cpp
+  SnippetImmUtils.cpp
+  SnippetUtils.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetUtils_static_64.lib

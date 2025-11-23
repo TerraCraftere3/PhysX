@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  glew.c
+  SnippetCamera.cpp
+  SnippetFontRenderer.cpp
+  SnippetRender.cpp
+  SnippetRender.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetRender_static_64.lib

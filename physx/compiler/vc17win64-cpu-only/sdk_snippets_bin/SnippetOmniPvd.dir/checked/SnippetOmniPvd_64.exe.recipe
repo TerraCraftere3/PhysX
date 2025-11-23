@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\x64\checked\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PVDRuntime_64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXFoundation_64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXCommon_64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysX_64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXCooking_64.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetOmniPvd_64.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

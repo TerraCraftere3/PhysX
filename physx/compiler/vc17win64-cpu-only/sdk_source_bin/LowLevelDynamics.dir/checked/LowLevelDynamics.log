@@ -1,0 +1,27 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+  DyAllocator.cpp
+  DyArticulationContactPrep.cpp
+  DyArticulationMimicJoint.cpp
+  DyFeatherstoneArticulation.cpp
+  DyFeatherstoneForwardDynamic.cpp
+  DyFeatherstoneInverseDynamic.cpp
+  DyConstraintPartition.cpp
+  DyConstraintSetup.cpp
+  DyConstraintSetupBlock.cpp
+  DyContactPrep.cpp
+  DyContactPrep4.cpp
+  DyDynamicsBase.cpp
+  DyDynamics.cpp
+  DyFrictionCorrelation.cpp
+  DyRigidBodyToSolverBody.cpp
+  DySolverConstraints.cpp
+  DySolverConstraintsBlock.cpp
+  DySolverControl.cpp
+  DyThreadContext.cpp
+  DyThresholdTable.cpp
+  DyTGSDynamics.cpp
+  DyTGSContactPrep.cpp
+  DyTGSContactPrepBlock.cpp
+  DySolverCore.cpp
+  DySleep.cpp
+  LowLevelDynamics.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\LowLevelDynamics_static_64.lib

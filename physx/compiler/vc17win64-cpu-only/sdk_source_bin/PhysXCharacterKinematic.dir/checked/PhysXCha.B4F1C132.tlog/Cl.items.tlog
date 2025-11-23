@@ -1,0 +1,10 @@
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctBoxController.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctBoxController.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctCapsuleController.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctCapsuleController.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctCharacterController.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctCharacterController.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctCharacterControllerCallbacks.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctCharacterControllerCallbacks.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctCharacterControllerManager.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctCharacterControllerManager.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctController.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctController.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctObstacleContext.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctObstacleContext.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctSweptBox.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctSweptBox.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctSweptCapsule.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctSweptCapsule.obj
+E:\Libraries\PhysX\physx\source\physxcharacterkinematic\src\CctSweptVolume.cpp;E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.dir\checked\CctSweptVolume.obj

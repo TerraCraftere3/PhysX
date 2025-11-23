@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetDeformableMesh.cpp
+  SnippetDeformableMeshRender.cpp
+  SnippetDeformableMesh.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetDeformableMesh_64.exe

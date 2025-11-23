@@ -1,0 +1,18 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt
+  px_globals.cpp
+  PxcContactCache.cpp
+  PxcContactMethodImpl.cpp
+  PxcMaterialMethodImpl.cpp
+  PxcNpBatch.cpp
+  PxcNpCacheStreamPair.cpp
+  PxcNpContactPrepShared.cpp
+  PxcNpMemBlockPool.cpp
+  PxcNpThreadContext.cpp
+  PxsCCD.cpp
+  PxsContactManager.cpp
+  PxsContext.cpp
+  PxsDefaultMemoryManager.cpp
+  PxsIslandSim.cpp
+  PxsNphaseImplementationContext.cpp
+  PxsSimpleIslandManager.cpp
+  LowLevel.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\LowLevel_static_64.lib

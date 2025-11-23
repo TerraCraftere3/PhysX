@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetSerialization.cpp
+  SnippetSerializationRender.cpp
+  SnippetSerialization.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetSerialization_64.exe

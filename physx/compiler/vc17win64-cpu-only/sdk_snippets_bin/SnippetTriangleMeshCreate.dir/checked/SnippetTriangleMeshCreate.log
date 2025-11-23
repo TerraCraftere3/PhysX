@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetTriangleMeshCreate.cpp
+  SnippetTriangleMeshCreate.vcxproj -> E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetTriangleMeshCreate_64.exe
