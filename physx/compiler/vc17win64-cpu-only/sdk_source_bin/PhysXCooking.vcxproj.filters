@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Libraries\PhysX\physx\source\physxcooking\src\Cooking.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Libraries\PhysX\physx\source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
+      <Filter>src\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxBVH33MidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxBVH34MidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\Pxc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxConvexMeshDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxCooking.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxCookingInternal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxMidphaseDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxTriangleMeshDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxTetrahedronMeshDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxBVHDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\include\cooking\PxSDFDesc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\source\physxcooking\src\Cooking.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\source\compiler\windows\resource\resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Libraries\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\Libraries\PhysX\physx\source\compiler\windows\resource\PhysXCooking.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7A84F8D4-5AD4-36D8-BFFB-B27F007317D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{1CC2E231-F46D-36E4-8FF7-78E480773D27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6DF3C7B3-C85D-31B0-B9B2-C8077133231B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\windows">
+      <UniqueIdentifier>{386F5765-2CC9-36BD-8260-A688C365625B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

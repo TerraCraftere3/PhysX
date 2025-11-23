@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/cmake_install.cmake",
+		"E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/cmake_install.cmake",
+		"E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/pvdruntime_bin/cmake_install.cmake",
+		"E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_snippets_bin/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

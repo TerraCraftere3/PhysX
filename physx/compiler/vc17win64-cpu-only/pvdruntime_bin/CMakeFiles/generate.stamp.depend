@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+E:/Libraries/PhysX/physx/pvdruntime/compiler/cmake/CMakeLists.txt
+E:/Libraries/PhysX/physx/pvdruntime/compiler/cmake/PVDRuntime.cmake
+E:/Libraries/PhysX/physx/pvdruntime/compiler/cmake/windows/CMakeLists.txt
+E:/Libraries/PhysX/physx/pvdruntime/compiler/cmake/windows/PVDRuntime.cmake
+E:/Libraries/PhysX/physx/source/compiler/cmake/modules/GetCompilerAndPlatform.cmake
+E:/Libraries/PhysX/physx/source/compiler/cmake/modules/NvidiaBuildOptions.cmake
+E:/Libraries/PhysX/physx/source/compiler/cmake/modules/SetOutputPaths.cmake

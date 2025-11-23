@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1DB5B74C-338F-3D2E-B1E1-2AFB6A6891A4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Libraries\PhysX\physx\source\compiler\cmake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">E:\Libraries\PhysX\physx\buildtools\templates\PxIncludeTemplate.h;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SimulationController.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">E:\Libraries\PhysX\physx\buildtools\templates\PxIncludeTemplate.h;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SimulationController.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">E:\Libraries\PhysX\physx\buildtools\templates\PxIncludeTemplate.h;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SimulationController.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule E:/Libraries/PhysX/physx/source/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_source_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">E:\Libraries\PhysX\physx\buildtools\templates\PxIncludeTemplate.h;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\SimulationController.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevel.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelAABB.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\LowLevelDynamics.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysX.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCharacterKinematic.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCommon.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXCooking.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXExtensions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXFoundation.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXPvdSDK.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXTask.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\PhysXVehicle.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SceneQuery.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\windows\SimulationController.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\ZERO_CHECK.vcxproj">
+      <Project>{76C01C52-0EBC-3294-A397-4BFBD732BAE3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevel.vcxproj">
+      <Project>{2582D269-E47A-360F-A16F-5EAE387C08CA}</Project>
+      <Name>LowLevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevelAABB.vcxproj">
+      <Project>{A25AD763-2538-33AF-9CC9-8FFC2DAE0109}</Project>
+      <Name>LowLevelAABB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\LowLevelDynamics.vcxproj">
+      <Project>{E54C3A7D-92E0-3C2F-B8E8-66F66B1A9B91}</Project>
+      <Name>LowLevelDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysX.vcxproj">
+      <Project>{9825DC73-FCBD-3B5E-A418-F8001DBDE720}</Project>
+      <Name>PhysX</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{B4F1C132-9BD1-3D6D-ADC5-88FB4BEA0D81}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{F023E941-199B-3842-B514-F11196C46E48}</Project>
+      <Name>PhysXCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{0659D31E-4D97-361D-9F42-4AEAE1897E6F}</Project>
+      <Name>PhysXCooking</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{98526E97-0476-3335-8BB9-2C4BDF21C298}</Project>
+      <Name>PhysXExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{6FFB25CC-9628-3AC1-98BA-97D9EDD5AB24}</Project>
+      <Name>PhysXFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{BA2DCE0C-9375-362D-A0C5-F332A0E32F68}</Project>
+      <Name>PhysXPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXTask.vcxproj">
+      <Project>{23A42670-2E4B-3C60-BC0F-5CA5DFE797DA}</Project>
+      <Name>PhysXTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXVehicle2.vcxproj">
+      <Project>{EB1360A9-DC92-3B71-8CE3-9E5E82CB06E3}</Project>
+      <Name>PhysXVehicle2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{4359E040-50B0-3992-B5A0-0200E2C53ACE}</Project>
+      <Name>SceneQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\SimulationController.vcxproj">
+      <Project>{E4CC6E49-CAF1-3592-B676-41EFA48140A9}</Project>
+      <Name>SimulationController</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

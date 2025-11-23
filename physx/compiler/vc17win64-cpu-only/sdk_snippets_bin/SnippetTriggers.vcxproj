@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C58B8E06-0428-360D-A3B0-67B0D0E02733}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SnippetTriggers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SnippetTriggers.dir\debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">SnippetTriggers_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SnippetTriggers.dir\checked\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='checked|x64'">SnippetTriggers_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='checked|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SnippetTriggers.dir\profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='profile|x64'">SnippetTriggers_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='profile|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">SnippetTriggers.dir\release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">SnippetTriggers_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_DEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR="debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR=\"debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXVehicle2_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXCharacterKinematic_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXCooking_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\SnippetUtils_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PVDRuntime_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\SnippetRender_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\SceneQuery_static_64.lib;C:\packman-repo\chk\freeglut-windows\3.4_1.1\lib\win64\freeglutd.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysX_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXCommon_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\debug\PhysXFoundation_64.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/debug/SnippetTriggers_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/debug/SnippetTriggers_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR="checked"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR=\"checked\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXVehicle2_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXCharacterKinematic_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXCooking_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetUtils_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PVDRuntime_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SnippetRender_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\SceneQuery_static_64.lib;C:\packman-repo\chk\freeglut-windows\3.4_1.1\lib\win64\freeglut.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysX_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXCommon_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\checked\PhysXFoundation_64.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/SnippetTriggers_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/checked/SnippetTriggers_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR="profile"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;PX_SUPPORT_OMNI_PVD=1;CMAKE_INTDIR=\"profile\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXVehicle2_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXCharacterKinematic_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXCooking_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\SnippetUtils_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PVDRuntime_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\SnippetRender_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\SceneQuery_static_64.lib;C:\packman-repo\chk\freeglut-windows\3.4_1.1\lib\win64\freeglut.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysX_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXCommon_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\profile\PhysXFoundation_64.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/profile/SnippetTriggers_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/profile/SnippetTriggers_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_SUPPORT_PVD=0;PX_SUPPORT_OMNI_PVD=0;CMAKE_INTDIR="release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PX_PUBLIC_RELEASE=1;DISABLE_CUDA_PHYSX;RENDER_SNIPPET;PX_SUPPORT_PVD=0;PX_SUPPORT_OMNI_PVD=0;CMAKE_INTDIR=\"release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Libraries\PhysX\physx\include\cudamanager;C:\packman-repo\chk\freeglut-windows\3.4_1.1\include;E:\Libraries\PhysX\physx\include;E:\Libraries\PhysX\physx\source\physxextensions\src;E:\Libraries\PhysX\physx\source\geomutils\include;E:\Libraries\PhysX\physx\snippets\graphics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXVehicle2_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXCharacterKinematic_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXCooking_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\SnippetUtils_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PVDRuntime_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\SnippetRender_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\SceneQuery_static_64.lib;C:\packman-repo\chk\freeglut-windows\3.4_1.1\lib\win64\freeglut.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXExtensions_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXPvdSDK_static_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysX_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXCommon_64.lib;E:\Libraries\PhysX\physx\bin\win.x86_64.vc143.mt\release\PhysXFoundation_64.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/release/SnippetTriggers_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Libraries/PhysX/physx/bin/win.x86_64.vc143.mt/release/SnippetTriggers_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Libraries\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_snippets_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\ConfigureFileMT.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_snippets_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\ConfigureFileMT.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_snippets_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\ConfigureFileMT.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule E:/Libraries/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/PhysX/physx/compiler/public -BE:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only --check-stamp-file E:/Libraries/PhysX/physx/compiler/vc17win64-cpu-only/sdk_snippets_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;E:\Libraries\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\ConfigureFileMT.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\GetCompilerAndPlatform.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\NvidiaBuildOptions.cmake;E:\Libraries\PhysX\physx\source\compiler\cmake\modules\SetOutputPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\ClassicMain.cpp" />
+    <ClInclude Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\SnippetPrint.h" />
+    <ClInclude Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\SnippetPVD.h" />
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippettriggers\SnippetTriggers.cpp" />
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippettriggers\SnippetTriggersRender.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\ZERO_CHECK.vcxproj">
+      <Project>{76C01C52-0EBC-3294-A397-4BFBD732BAE3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\pvdruntime_bin\PVDRuntime.vcxproj">
+      <Project>{50E7104C-5F99-3386-9E04-2240BCC3453A}</Project>
+      <Name>PVDRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysX.vcxproj">
+      <Project>{9825DC73-FCBD-3B5E-A418-F8001DBDE720}</Project>
+      <Name>PhysX</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{B4F1C132-9BD1-3D6D-ADC5-88FB4BEA0D81}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{F023E941-199B-3842-B514-F11196C46E48}</Project>
+      <Name>PhysXCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{0659D31E-4D97-361D-9F42-4AEAE1897E6F}</Project>
+      <Name>PhysXCooking</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{98526E97-0476-3335-8BB9-2C4BDF21C298}</Project>
+      <Name>PhysXExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{6FFB25CC-9628-3AC1-98BA-97D9EDD5AB24}</Project>
+      <Name>PhysXFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{BA2DCE0C-9375-362D-A0C5-F332A0E32F68}</Project>
+      <Name>PhysXPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\PhysXVehicle2.vcxproj">
+      <Project>{EB1360A9-DC92-3B71-8CE3-9E5E82CB06E3}</Project>
+      <Name>PhysXVehicle2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_source_bin\SceneQuery.vcxproj">
+      <Project>{4359E040-50B0-3992-B5A0-0200E2C53ACE}</Project>
+      <Name>SceneQuery</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\SnippetRender.vcxproj">
+      <Project>{ED24A8AE-658B-375A-90FE-5383C0D08484}</Project>
+      <Name>SnippetRender</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Libraries\PhysX\physx\compiler\vc17win64-cpu-only\sdk_snippets_bin\SnippetUtils.vcxproj">
+      <Project>{6708AD6B-54B8-3DBA-A592-BF0F2A4DBBBC}</Project>
+      <Name>SnippetUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

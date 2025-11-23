@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\ClassicMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippetcustomgeometrycollision\SnippetCustomGeometryCollision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Libraries\PhysX\physx\snippets\snippetcustomgeometrycollision\SnippetCustomGeometryCollisionRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\SnippetPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Libraries\PhysX\physx\snippets\snippetcommon\SnippetPVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Libraries\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{08A29619-7754-3852-8223-087F84A6CF8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8E689C82-9A58-3F4D-B660-B3B7CE471ED7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
